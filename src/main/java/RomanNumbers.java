@@ -13,7 +13,9 @@ public class RomanNumbers {
     }
 
     private String toRoman(int i) {
-        return "";
+        if (i == 1) {
+            return "I";
+        }
     }
 
 }
